@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body{
+    background-color: rgb(14, 31, 33);
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    margin-top: 200px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.845);
+    padding: 60px 40px 80px 40px;
+    border-radius: 5px;
+}
+
+h1{
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+#task {
+    height: 50px;
+    width: 250px;
+    margin: 40px 0px 0px 50px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 0;
+    border: 2px solid rgb(20, 90, 109);
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+button{
+    height: 53px;
+    width: 80px;
+    background-color: rgb(20, 90, 109);
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.color:hover{
+    background-color: rgb(54, 108, 122);
+}
+
+.text ul{
+    background-color: rgb(54, 108, 122);
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 30px;
+    width: 330px;
+    margin: 10px 0px 0px 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text ul i{
+    color: white;
+    position: absolute;
+    margin-left: 310px;
+}
+
+@media screen and (max-width: 413px){
+    .main{
+        width: 200px;
+        padding-left: 20px;
+
+    }
+    h1{
+        margin-left: 35px;
+    }
+    #task{
+        width: 150px;
+        margin-left: 0;
+    }
+    button{
+        height: 53px;
+        width: 50px;
+        padding: 5px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    .content{
+        display: flex;
+    }
+    .text ul{
+        margin-left: 0;
+        width: 200px;
+    }
+    .text ul i{
+        margin-left: 180px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 476px)  {
+    .main{
+        width: 350px;
+    }
+    h1{
+        margin-left: 130px;
+    }
+    .content{
+        display: flex;
+    }
+    #task{
+        margin-left: 20px;
+    }
+    button{
+        margin-top: 40px;
+        margin-left: 5px;
+        
+    }
+    .text ul {
+        margin-left: 20px;
+    }
+}
